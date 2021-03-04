@@ -71,6 +71,12 @@ const bonus = {
     third: [7, 8, 9]
   };
 
-//   const all = bonus.first;
+  const all = [...bonus.first, ...bonus.second, ...bonus.third];
 
 //   console.log(all);
+
+const [one, two, three] = bonus.first;
+const [four, five, six] = bonus.second;
+const [seven, eight, nine] = bonus.third;
+console.log(one, two, three, four, five, six, seven, eight, nine);
+
